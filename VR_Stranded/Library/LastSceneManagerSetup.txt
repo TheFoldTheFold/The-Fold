@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/Sloan.unity
+- path: Assets/Scenes/Madi.unity
   isLoaded: 1
   isActive: 1
