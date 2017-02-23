@@ -17,12 +17,19 @@ public class PlayerController : MonoBehaviour {
         float hAxis = Input.GetAxis("LHorizontal"); // left stick horizontal axis
         float vAxis = Input.GetAxis("LVertical");   // left stick vertical axis
 
+        float khAxis = Input.GetAxis("Horizontal"); // keyboard horizontal axis
+        float kvAxis = Input.GetAxis("Vertical");   // keyboard vertical axis
+
+        //print(hAxis);
+        //print(vAxis);
+
         // ---------------------------------------------
 
         float dPadX = Input.GetAxis("DPadX");   // left = -1; right = 1;
         float dPadY = Input.GetAxis("DPadY");   // down = -1; up = 1;
 
         float triggerAxis = Input.GetAxis("Triggers");  // left trigger = -1; right trigger = 1;
+        print(triggerAxis);
 
         if (dPadX != 0) {
             print("DPad Horizontal Value: " + dPadX);
@@ -39,10 +46,10 @@ public class PlayerController : MonoBehaviour {
         if (Input.GetButtonDown("RBumper")) {
             print("Right Bumper");
         }
-        if (Input.GetButtonDown("A Button")) {
+        if (Input.GetButtonDown("A Button")) {  // jump
             print("A Button");
         }
-        if (Input.GetButtonDown("B Button")) {
+        if (Input.GetButtonDown("B Button")) {  // interact
             print("B Button");
         }
         if (Input.GetButtonDown("X Button")) {
