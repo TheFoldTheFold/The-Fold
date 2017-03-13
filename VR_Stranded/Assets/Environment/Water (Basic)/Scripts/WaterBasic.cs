@@ -19,8 +19,8 @@ namespace UnityStandardAssets.Water
                 return;
             }
 
-            Vector4 waveSpeed = mat.GetVector("WaveSpeed");
-            float waveScale = mat.GetFloat("_WaveScale");
+            Vector4 waveSpeed = mat.GetVector("Wave Speed");
+            float waveScale = mat.GetFloat("Wave Scale");
             float t = Time.time / 20.0f;
 
             Vector4 offset4 = waveSpeed * (t * waveScale);
