@@ -2,7 +2,7 @@
 
 # Stranded :palm_tree:
 
-A Virtual Reality experience unlike any other.
+A Virtual Reality experience unlike any other. Get wrecked.
 
 # Building this for VR:
 
