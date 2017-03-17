@@ -9,6 +9,7 @@ public class FPSController : MonoBehaviour {
     public GameObject pu;
 
 	public GameObject cam;
+    private GameObject plyr;
 
 	float moveFB;
 	float moveLR;
@@ -24,15 +25,17 @@ public class FPSController : MonoBehaviour {
     private bool move;
     public bool canInteract;
 
+    bool safeRange;
+
 	// Use this for initialization
 	void Start () {
         move = true;
 		player = GetComponent<CharacterController> ();
+        plyr = GameObject.Find("Player");
         canInteract = false;
-
+        safeRange = false;
 	}
 	
-	// Update is called once per frame
 	void Update () {
 		moveFB = Input.GetAxis ("Vertical") * speed;
 		moveLR = Input.GetAxis ("Horizontal") * speed;
@@ -40,17 +43,27 @@ public class FPSController : MonoBehaviour {
 		rotX = Input.GetAxis ("Mouse X") * sensitivity;
 		rotY -= Input.GetAxis ("Mouse Y") * sensitivity;
 
+        rotY = Mathf.Clamp(rotY, -60f, 60f);
+        transform.Rotate(0, rotX, 0);
+        cam.transform.localRotation = Quaternion.Euler(rotY, 0, 0);
+
+
         if (canInteract == true && Input.GetButton("Interact")) {
-            move = false;
-            transform.LookAt(pu.transform);
+            //move = false;
+            //transform.LookAt(pu.transform);
             interaction();
+        }
+        if (safeRange == true && Input.GetButton("Interact")) {
+            move = false;
+            SafeController sc = pu.gameObject.GetComponent<SafeController>();
+            sc.isActive = true;
         }
         else if (move == true) {
             movement();
         } 
 	}
 
-	void FixedUpdate(){
+	void FixedUpdate() {
 		if (player.isGrounded == false) {
 			vertVelocity += Physics.gravity.y * Time.deltaTime;
 		} else {
@@ -62,49 +75,54 @@ public class FPSController : MonoBehaviour {
             canInteract = true;
             pu = col.gameObject;
         }
-    }
-    void OnTriggerExit(Collider col)
-    {
-        if (col.gameObject.tag == "PickUp") {
-            canInteract = false;
+        if (col.gameObject.tag == "Safe") {
+            safeRange = true;
+            pu = col.gameObject;
         }
     }
-    void movement()
-    {
-        rotY = Mathf.Clamp(rotY, -60f, 60f);
+    void OnTriggerExit(Collider col) {
+        if (col.gameObject.tag == "PickUp") {
+            canInteract = false;
+            pu = null;
+        } else if (col.gameObject.tag == "Safe") {
+            safeRange = false;
+            pu = null;
+        }
+    }
+    void movement() {
+        
 
         Vector3 movement = new Vector3(moveLR, vertVelocity, moveFB);
-        transform.Rotate(0, rotX, 0);
-        cam.transform.localRotation = Quaternion.Euler(rotY, 0, 0);
+        
+        
 
         movement = transform.rotation * movement;
         player.Move(movement * Time.deltaTime);
 
         float triggerAxis = Input.GetAxis("Triggers");  // left trigger = -1; right trigger = 1;
-        print(triggerAxis);
 
-        if (player.isGrounded == true)
-        {    // enable gravity
+        if (player.isGrounded == true) {    // enable gravity
             jumpTimes = 0;
         }
-        if (jumpTimes < 1)
-        {                // jump once
+        if (jumpTimes < 1) {                // jump once
             if (Input.GetButtonDown("Jump"))
             {
                 vertVelocity += jumpDist;
                 jumpTimes += 1;
             }
         }
-        if (Input.GetButton("Run") || Input.GetAxis("Triggers") < -0.5)
-        {   // running
+        if (Input.GetButton("Run") || Input.GetAxis("Triggers") < -0.5) {   // running
             speed = 7f;
         }
-        else
-        {  // walking speed
+        else {  // walking speed
             speed = 3f;
         }
     }
     void interaction() {
-        pu.transform.localRotation = Quaternion.Euler(rotY, 0, 0);
+        if (pu.transform.parent != null) {
+            pu.transform.parent = null;
+        } else{
+            pu.transform.parent = plyr.transform;
+        }
     }
 }
