@@ -14,6 +14,11 @@ public class SafeController : MonoBehaviour {
     float currentTurn;
     public int currentNum;
     bool isOpen;
+    AudioSource dialTurn;
+    AudioSource enterClick;
+    AudioSource openSafe;
+    AudioSource wrongCombo;
+    Animator anim;
 
     void Start () {
         isActive = false;
@@ -21,9 +26,24 @@ public class SafeController : MonoBehaviour {
         currentNum = 12;
         isOpen = false;
         currentTurn = 0.0f;
+        AudioSource[] audios = GetComponents<AudioSource>();
+        dialTurn = audios[0];
+        enterClick = audios[1];
+        openSafe = audios[2];
+        wrongCombo = audios[3];
+        anim = GetComponent<Animator>();
     }
 	
 	void Update () {
+        if (Input.GetButtonDown("Back")) {
+            Debug.Log("Exit Interaction");
+            counter = 0;
+            GameObject player = GameObject.Find("Player");
+            FPSController fps = player.GetComponent<FPSController>();
+            Debug.Log(fps.move);
+            fps.move = true;
+            isActive = false;
+        }
         if (isActive) {
             if (isOpen == true) {
                 if (currentTurn < 110) {
@@ -32,22 +52,28 @@ public class SafeController : MonoBehaviour {
                 }
             }
             else if (isOpen == false) {
+                
                 if (counter == 3) {
+                    
                     comboCheck();
                 }
                 if (turning == true) {
                     turn();
                 }
-                else if (Input.GetKeyDown(KeyCode.LeftArrow)) {
-                    turnSpeed = 0.6f;
+                else if (Input.GetAxis("DX") < 0) {
+                    turnSpeed = 1f;
+                    dialTurn.Play();
                     turning = true;
                 }
-                else if (Input.GetKeyDown(KeyCode.RightArrow)) {
-                    turnSpeed = -0.6f;
+                else if (Input.GetAxis("DX") > 0) {
+                    turnSpeed = -1f;
+                    dialTurn.Play();
                     turning = true;
                 }
-                else if (Input.GetKeyDown(KeyCode.Space)) {
+                else if (Input.GetButtonDown("Jump")) {
+                    anim.SetTrigger("enter");
                     userInput[counter] = currentNum;
+                    enterClick.Play();
                     ++counter;
                 }
             }
@@ -82,11 +108,13 @@ public class SafeController : MonoBehaviour {
                 //Debug.Log("Combo does not match");
                 counter = 0;
                 flag = 0;
+                wrongCombo.Play();
                 break;
             }
         }
         if (flag == 1) {
             isOpen = true;
+            openSafe.Play();
         }
     }
 }

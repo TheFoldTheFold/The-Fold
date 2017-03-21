@@ -22,7 +22,7 @@ public class FPSController : MonoBehaviour {
 	private int jumpTimes;
 
     private float run;
-    private bool move;
+    public bool move;
     public bool canInteract;
 
     bool safeRange;
