@@ -47,7 +47,7 @@ public class SafeController : MonoBehaviour {
         if (isActive) {
             if (isOpen == true) {
                 if (currentTurn < 110) {
-                    door.transform.Rotate(0, 0.6f, 0);
+                    door.transform.Rotate(0, turnSpeed, 0);
                     currentTurn += Mathf.Abs(turnSpeed);
                 }
             }
@@ -115,6 +115,7 @@ public class SafeController : MonoBehaviour {
         if (flag == 1) {
             isOpen = true;
             openSafe.Play();
+            turnSpeed = 3f;
         }
     }
 }
