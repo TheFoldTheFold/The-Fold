@@ -71,6 +71,8 @@ public class AutoIntensity : MonoBehaviour {
             starfield.Stop();
             transform.Rotate (dayRotateSpeed * Time.deltaTime * skySpeed);
         }
+
+
         else{
             transform.Rotate (nightRotateSpeed * Time.deltaTime * skySpeed);
             starfield.Play(); 
