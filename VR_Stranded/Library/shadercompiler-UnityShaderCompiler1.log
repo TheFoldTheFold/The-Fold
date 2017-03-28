@@ -1,0 +1,24 @@
+Base path: /Applications/Unity/Unity.app/Contents
+Cmd: getPlatforms
+Cmd: disassembleShader
+  api=6 insize=3635 outsize=3635 ok=1
+Cmd: disassembleShader
+  api=6 insize=0 outsize=57 ok=1
+Cmd: compileSnippet
+  api=14 type=0 insize=3671 outsize=2126 kw=POINT_COOKIE pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA ok=1
+Cmd: disassembleShader
+  api=23 insize=2126 outsize=2110 ok=1
+Cmd: compileSnippet
+  api=14 type=1 insize=3671 outsize=1215 kw=DIRECTIONAL pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA ok=1
+Cmd: disassembleShader
+  api=24 insize=1215 outsize=1199 ok=1
+Cmd: compileSnippet
+  api=15 type=0 insize=6115 outsize=3898 kw= pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA ok=1
+Cmd: disassembleShader
+  api=6 insize=3898 outsize=3898 ok=1
+Cmd: compileSnippet
+  api=14 type=0 insize=5806 outsize=3698 kw=UNITY_HDR_ON pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA ok=1
+Cmd: disassembleShader
+  api=23 insize=3698 outsize=3682 ok=1
+
+Quitting shader compiler process

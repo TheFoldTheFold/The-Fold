@@ -4,7 +4,21 @@ timeCreated: 1486966708
 licenseType: Free
 ModelImporter:
   serializedVersion: 19
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Old_Big_House
+    100004: Plane
+    400000: //RootNode
+    400002: Old_Big_House
+    400004: Plane
+    2300000: Old_Big_House
+    2300002: Plane
+    3300000: Old_Big_House
+    3300002: Plane
+    4300000: Old_Big_House
+    4300002: Plane
+    7400000: Default Take
+    9500000: //RootNode
   materials:
     importMaterials: 1
     materialName: 0
