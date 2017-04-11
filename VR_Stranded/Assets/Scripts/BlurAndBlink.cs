@@ -13,13 +13,12 @@ public class BlurAndBlink : MonoBehaviour {
 	void Start () {
 
 			switching = false;
+			cam.GetComponent<VignetteAndChromaticAberration>().enabled = true;
+			cam.GetComponent<BlurOptimized>().enabled = true;
 	}
 	
 	// Update is called once per frame
 	void Update () {
-
-			cam.GetComponent<VignetteAndChromaticAberration>().enabled = true;
-			cam.GetComponent<BlurOptimized>().enabled = true;
 
 		if(switching == false && cam.GetComponent<VignetteAndChromaticAberration>().intensity < 1){
 			if((cam.GetComponent<VignetteAndChromaticAberration>().intensity + 0.2f * Time.deltaTime) < 1){
@@ -33,6 +32,8 @@ public class BlurAndBlink : MonoBehaviour {
 		else if(switching == true){
 			cam.GetComponent<VignetteAndChromaticAberration>().intensity -= 0.2f * Time.deltaTime;
 			cam.GetComponent<BlurOptimized>().blurSize -= 0.3f * Time.deltaTime;
+			cam.GetComponent<BlurOptimized>().enabled = false;
+
 		}
 		
 	}
