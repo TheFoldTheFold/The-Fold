@@ -34,7 +34,7 @@ public class LadderInteraction : MonoBehaviour {
         else if (attached && currheight >= height)
         {
             this.transform.rotation = Quaternion.identity;
-            this.transform.localEulerAngles = new Vector3(0f, 0f, 0f);
+            this.transform.localEulerAngles = new Vector3(0f, 180f, 0f);
             Vector3 movement = new Vector3(0, 0, speed);
             GameObject.Find("Player").transform.Translate(movement * Time.deltaTime);
             fwd += speed*Time.deltaTime;
