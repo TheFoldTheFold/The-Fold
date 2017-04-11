@@ -15,6 +15,7 @@ public class BlurAndBlink : MonoBehaviour {
 			switching = false;
 			cam.GetComponent<VignetteAndChromaticAberration>().enabled = true;
 			cam.GetComponent<BlurOptimized>().enabled = true;
+
 	}
 	
 	// Update is called once per frame
