@@ -48,11 +48,11 @@ public class FPSController : MonoBehaviour {
         cam.transform.localRotation = Quaternion.Euler(rotY, 0, 0);
 
 
-        if (canInteract == true && Input.GetButton("Interact")) {
-            //move = false;
-            //transform.LookAt(pu.transform);
-            interaction();
-        }
+        //if (canInteract == true && Input.GetButton("Interact")) {
+        //    //move = false;
+        //    //transform.LookAt(pu.transform);
+        //    interaction();
+        //}
         if (safeRange == true && Input.GetButton("Interact")) {
             move = false;
             SafeController sc = pu.gameObject.GetComponent<SafeController>();
@@ -71,20 +71,21 @@ public class FPSController : MonoBehaviour {
 		}
 	}
     void OnTriggerEnter(Collider col) {
-        if (col.gameObject.tag == "PickUp") {
-            canInteract = true;
-            pu = col.gameObject;
-        }
+        //if (col.gameObject.tag == "PickUp") {
+        //    canInteract = true;
+        //    pu = col.gameObject;
+        //}
         if (col.gameObject.tag == "Safe") {
             safeRange = true;
             pu = col.gameObject;
         }
     }
     void OnTriggerExit(Collider col) {
-        if (col.gameObject.tag == "PickUp") {
-            canInteract = false;
-            pu = null;
-        } else if (col.gameObject.tag == "Safe") {
+        //if (col.gameObject.tag == "PickUp") {
+        //    canInteract = false;
+        //    pu = null;
+        //} 
+        if (col.gameObject.tag == "Safe") {
             safeRange = false;
             pu = null;
         }
@@ -118,11 +119,11 @@ public class FPSController : MonoBehaviour {
             speed = 3f;
         }
     }
-    void interaction() {
-        if (pu.transform.parent != null) {
-            pu.transform.parent = null;
-        } else{
-            pu.transform.parent = plyr.transform;
-        }
-    }
+    //void interaction() {
+    //    if (pu.transform.parent != null) {
+    //        pu.transform.parent = null;
+    //    } else{
+    //        pu.transform.parent = plyr.transform;
+    //    }
+    //}
 }
