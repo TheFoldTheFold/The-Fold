@@ -11,7 +11,6 @@ public class LoadLevel : MonoBehaviour {
 	IEnumerator Load()
 	{
 		yield return new WaitForSeconds(25);
-		//var a = UnityEngine.SceneManagement.SceneManager.LoadSceneAsync(level);
 		Application.LoadLevel(level);
 	}
 }
