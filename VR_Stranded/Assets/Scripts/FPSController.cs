@@ -6,7 +6,6 @@ public class FPSController : MonoBehaviour {
 	public float speed = 2f;
 	public float sensitivity = 2f;
 	CharacterController player;
-    public GameObject pu;
 
 	public GameObject cam;
     private GameObject plyr;
@@ -26,8 +25,10 @@ public class FPSController : MonoBehaviour {
     public bool canInteract;
 
     bool safeRange;
+    private Transform cameraTransform;
+    GameObject pu;
 
-	public static int itemCount;
+    public static int itemCount;
 	// Use this for initialization
 	void Start () {
         move = true;
@@ -36,25 +37,20 @@ public class FPSController : MonoBehaviour {
         canInteract = false;
         safeRange = false;
 		itemCount = 0;
-	}
+        cameraTransform = cam.transform;
+    }
 	
 	void Update () {
 		moveFB = Input.GetAxis ("Vertical") * speed;
 		moveLR = Input.GetAxis ("Horizontal") * speed;
 
-		rotX = Input.GetAxis ("Mouse X") * sensitivity;
-		rotY -= Input.GetAxis ("Mouse Y") * sensitivity;
+//		rotX = Input.GetAxis ("Mouse X") * sensitivity;
+//		rotY -= Input.GetAxis ("Mouse Y") * sensitivity;
 
-        rotY = Mathf.Clamp(rotY, -60f, 60f);
-        transform.Rotate(0, rotX, 0);
-        cam.transform.localRotation = Quaternion.Euler(rotY, 0, 0);
+//        rotY = Mathf.Clamp(rotY, -60f, 60f);
+//        transform.Rotate(0, rotX, 0);
+//        cam.transform.localRotation = Quaternion.Euler(rotY, 0, 0);
 
-
-        //if (canInteract == true && Input.GetButton("Interact")) {
-        //    //move = false;
-        //    //transform.LookAt(pu.transform);
-        //    interaction();
-        //}
         if (safeRange == true && Input.GetButton("Interact")) {
             move = false;
             SafeController sc = pu.gameObject.GetComponent<SafeController>();
@@ -73,34 +69,29 @@ public class FPSController : MonoBehaviour {
 		}
 	}
     void OnTriggerEnter(Collider col) {
-        //if (col.gameObject.tag == "PickUp") {
-        //    canInteract = true;
-        //    pu = col.gameObject;
-        //}
         if (col.gameObject.tag == "Safe") {
             safeRange = true;
             pu = col.gameObject;
         }
     }
     void OnTriggerExit(Collider col) {
-        //if (col.gameObject.tag == "PickUp") {
-        //    canInteract = false;
-        //    pu = null;
-        //} 
         if (col.gameObject.tag == "Safe") {
             safeRange = false;
             pu = null;
         }
     }
     void movement() {
-        
 
         Vector3 movement = new Vector3(moveLR, vertVelocity, moveFB);
-        
+        //Vector3 zero = new Vector3(1,0,1);
         
 
-        movement = transform.rotation * movement;
-        player.Move(movement * Time.deltaTime);
+        //Camera.main.fieldOfView = Mathf.Lerp(Camera.main.fieldOfView, 80, 2 * Time.deltaTime);
+        player.SimpleMove(cameraTransform.forward * (Time.deltaTime * moveFB));
+        player.SimpleMove(cameraTransform.right * (Time.deltaTime * moveLR));
+
+        //movement = transform.forward* movement;
+        //player.Move(movement * Time.deltaTime);
 
         float triggerAxis = Input.GetAxis("Triggers");  // left trigger = -1; right trigger = 1;
 
@@ -115,17 +106,10 @@ public class FPSController : MonoBehaviour {
             }
         }
         if (Input.GetButton("Run") || Input.GetAxis("Triggers") < -0.5) {   // running
-            speed = 7f;
+            speed = 160f;
         }
         else {  // walking speed
-            speed = 3f;
+            speed = 60f;
         }
     }
-    //void interaction() {
-    //    if (pu.transform.parent != null) {
-    //        pu.transform.parent = null;
-    //    } else{
-    //        pu.transform.parent = plyr.transform;
-    //    }
-    //}
 }
