@@ -11,7 +11,9 @@ public class LoadLevel : MonoBehaviour {
 	}
 	IEnumerator Load()
 	{
-		yield return new WaitForSeconds(seconds);
-		Application.LoadLevel(level);
+		if (batteryTrigger.loadEnd == true) {
+			yield return new WaitForSeconds (seconds);
+			Application.LoadLevel (level);
+		}
 	}
 }

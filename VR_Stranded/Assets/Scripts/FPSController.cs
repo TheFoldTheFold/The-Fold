@@ -35,7 +35,7 @@ public class FPSController : MonoBehaviour {
         plyr = GameObject.Find("Player");
         canInteract = false;
         safeRange = false;
-		itemCount = 3;
+		itemCount = 0;
 	}
 	
 	void Update () {

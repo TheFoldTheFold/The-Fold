@@ -6,6 +6,7 @@ public class batteryTrigger : MonoBehaviour {
 
 	private AudioSource audio;
 	private bool hasPlayed = false;
+	public static bool loadEnd = false;
 	void Start () {
 		audio = GetComponent<AudioSource>();
 	}
@@ -16,6 +17,7 @@ public class batteryTrigger : MonoBehaviour {
 			if (!hasPlayed) {
 				audio.Play ();
 				hasPlayed = true;
+				loadEnd = true;
 			}
 		}
 	}
