@@ -13,7 +13,7 @@ public class SafeController : MonoBehaviour {
     float turnSpeed;
     float currentTurn;
     public int currentNum;
-    bool isOpen;
+    public static bool isOpen;
     AudioSource dialTurn;
     AudioSource enterClick;
     AudioSource openSafe;

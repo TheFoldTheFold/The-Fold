@@ -27,6 +27,7 @@ public class FPSController : MonoBehaviour {
 
     bool safeRange;
 
+	public static int itemCount;
 	// Use this for initialization
 	void Start () {
         move = true;
@@ -34,6 +35,7 @@ public class FPSController : MonoBehaviour {
         plyr = GameObject.Find("Player");
         canInteract = false;
         safeRange = false;
+		itemCount = 3;
 	}
 	
 	void Update () {

@@ -1,0 +1,1599 @@
+fileFormatVersion: 2
+guid: 0af68acd66eb64a61b465bd14a619bc6
+timeCreated: 1492320798
+licenseType: Free
+SketchUpImporter:
+  generateBackFace: 0
+  mergeCoplanarFaces: 0
+  selectedNodes: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f000000100000001100000012000000130000001400000015000000160000001700000018000000190000001a0000001b0000001c0000001d0000001e0000001f000000200000002100000022000000230000002400000025000000260000002700000028000000290000002a0000002b0000002c0000002d0000002e0000002f000000300000003100000032000000330000003400000035000000360000003700000038000000390000003a0000003b0000003c0000003d0000003e0000003f000000400000004100000042000000430000004400000045000000460000004700000048000000490000004a0000004b0000004c0000004d0000004e0000004f000000500000005100000052000000530000005400000055000000560000005700000058000000590000005a0000005b0000005c0000005d0000005e0000005f000000600000006100000062000000630000006400000065000000660000006700000068000000690000006a0000006b0000006c0000006d0000006e0000006f000000700000007100000072000000730000007400000075000000760000007700000078000000790000007a0000007b0000007c0000007d0000007e0000007f000000800000008100000082000000830000008400000085000000860000008700000088000000890000008a0000008b0000008c0000008d0000008e0000008f000000900000009100000092000000930000009400000095000000960000009700000098000000990000009a0000009b0000009c0000009d0000009e0000009f000000a0000000a1000000a2000000a3000000a4000000a5000000a6000000a7000000a8000000a9000000aa000000ab000000ac000000ad000000ae000000af000000b0000000b1000000b2000000b3000000b4000000b5000000b6000000b7000000b8000000b9000000ba000000bb000000bc000000bd000000be000000bf000000c0000000c1000000c2000000c3000000c4000000c5000000c6000000c7000000c8000000c9000000ca000000cb000000cc000000cd000000ce000000cf000000d0000000d1000000d2000000d3000000d4000000d5000000d6000000d7000000d8000000d9000000da000000db000000dc000000dd000000de000000df000000e0000000e1000000e2000000e3000000e4000000e5000000e6000000e7000000e8000000e9000000ea000000eb000000ec000000ed000000ee000000ef000000f0000000f1000000f2000000f3000000f4000000f5000000f6000000f7000000f8000000f9000000fa000000fb000000fc000000fd000000fe000000ff000000000100000101000002010000030100000401000005010000060100000701000008010000090100000a0100000b0100000c0100000d0100000e0100000f010000100100001101000012010000130100001401000015010000160100001701000018010000190100001a0100001b0100001c0100001d0100001e0100001f010000200100002101000022010000230100002401000025010000260100002701000028010000290100002a0100002b0100002c0100002d0100002e0100002f010000300100003101000032010000330100003401000035010000360100003701000038010000390100003a0100003b0100003c0100003d0100003e0100003f010000400100004101000042010000430100004401000045010000460100004701000048010000490100004a0100004b0100004c0100004d0100004e0100004f010000500100005101000052010000530100005401000055010000560100005701000058010000590100005a0100005b0100005c0100005d0100005e0100005f010000600100006101000062010000630100006401000065010000660100006701000068010000690100006a0100006b0100006c0100006d0100006e0100006f010000700100007101000072010000730100007401000075010000760100007701000078010000790100007a0100007b0100007c0100007d0100007e0100007f010000800100008101000082010000830100008401000085010000860100008701000088010000890100008a0100008b0100008c0100008d0100008e0100008f010000900100009101000092010000930100009401000095010000960100009701000098010000990100009a0100009b0100009c0100009d0100009e0100009f010000a0010000a1010000a2010000a3010000a4010000a5010000a6010000a7010000a8010000a9010000aa010000ab010000ac010000ad010000ae010000af010000b0010000b1010000b2010000b3010000b4010000b5010000b6010000b7010000b8010000b9010000ba010000bb010000bc010000bd010000be010000bf010000c0010000c1010000c2010000c3010000c4010000c5010000c6010000c7010000c8010000c9010000ca010000cb010000cc010000cd010000ce010000cf010000d0010000d1010000d2010000d3010000d4010000d5010000d6010000d7010000d8010000d9010000da010000db010000dc010000dd010000de010000df010000e0010000e1010000e2010000e3010000e4010000e5010000e6010000e7010000e8010000e9010000ea010000eb010000ec010000ed010000ee010000ef010000f0010000f1010000f2010000f3010000f4010000f5010000f6010000f7010000f8010000f9010000fa010000fb010000fc010000fd010000fe010000ff010000000200000102000002020000030200000402000005020000060200000702000008020000090200000a0200000b0200000c0200000d0200000e0200000f020000100200001102000012020000130200001402000015020000160200001702000018020000190200001a0200001b0200001c0200001d0200001e0200001f020000200200002102000022020000230200002402000025020000260200002702000028020000290200002a0200002b0200002c0200002d0200002e0200002f020000300200003102000032020000330200003402000035020000360200003702000038020000390200003a0200003b0200003c0200003d0200003e0200003f020000400200004102000042020000430200004402000045020000460200004702000048020000490200004a0200004b0200004c0200004d0200004e0200004f020000500200005102000052020000530200005402000055020000560200005702000058020000590200005a0200005b0200005c0200005d0200005e0200005f020000600200006102000062020000630200006402000065020000660200006702000068020000690200006a0200006b0200006c0200006d0200006e0200006f020000700200007102000072020000730200007402000075020000760200007702000078020000790200007a0200007b0200007c0200007d0200007e0200007f020000800200008102000082020000830200008402000085020000860200008702000088020000890200008a0200008b0200008c0200008d0200008e0200008f020000900200009102000092020000930200009402000095020000960200009702000098020000990200009a0200009b0200009c0200009d0200009e0200009f020000a0020000a1020000a2020000a3020000a4020000a5020000a6020000a7020000a8020000a9020000
+  assetHash:
+    serializedVersion: 2
+    Hash: 5a022e89658bc2a98227cb3bba54b9ca
+  longitude: -105.283
+  latitude: 40.017
+  northCorrection: -0
+  fileUnit: 0
+  sketchUpImportData:
+    defaultCamera:
+      position: {x: 0.52701163, y: 0.2730004, z: -0.9416712}
+      lookAt: {x: 0.0531869, y: 0.30008778, z: -0.092567965}
+      up: {x: 0.0135694165, y: 0.9996122, z: -0.024316663}
+      fov: 40
+      aspectRatio: 0
+      orthoSize: 1
+      isPerspective: 1
+    scenes: []
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: 12
+    100002: 18
+    100004: 22mm3posSwitch#1
+    100006: 22mm3posSwitch#1 1
+    100008: 22mm3posSwitch#1 2
+    100010: 22mm3posSwitch#1 3
+    100012: 22mmE-switch#1
+    100014: 22mmPilotLightAmber#1
+    100016: 22mmPilotLightAmber#1 1
+    100018: 22mmPilotLightBlue#1
+    100020: 22mmPilotLightBlue#1 1
+    100022: 22mmPilotLightBlue#1 2
+    100024: 22mmPilotLightGreen
+    100026: 22mmPilotLightGreen 1
+    100028: 22mmPilotLightGreen 2
+    100030: 22mmPilotLightGreen 3
+    100032: 22mmPushButtonRed#1
+    100034: 22mmPushButtonWhite#1
+    100036: 24
+    100038: 30
+    100040: 42CF35AJ#1
+    100042: 42CF35AJ#1 1
+    100044: 42CF35AJ#1 2
+    100046: 6#1
+    100048: 75 VA 50/60 Hz 5
+    100050: A
+    100052: A/M
+    100054: A/M 1
+    100056: A/M 2
+    100058: Altech
+    100060: Altech 1
+    100062: Altech 2
+    100064: Altech 3
+    100066: AltechBreaker_B15_2P#1
+    100068: AltechBreaker_B5#1
+    100070: AltechBreaker_C2#1
+    100072: AltechBreaker_C3#1
+    100074: AuxiliaryContact
+    100076: B15#1
+    100078: B15#1 1
+    100080: B5
+    100082: BK
+    100084: C2#2
+    100086: C3
+    100088: CableGland1_2in
+    100090: CableGland3_4in
+    100092: CAT.NO. PH75PG
+    100094: ContactBlock
+    100096: ContactBlock 1
+    100098: ContactorSiemens3P
+    100100: ContactorSiemens3P 1
+    100102: ContactorSiemens3P 2
+    100104: Current#1
+    100106: DINrail35mm
+    100108: Disable
+    100110: DrawerPull320mm#1
+    100112: DrawerPull320mm#1 1
+    100114: DualAmMeter30APrototype
+    100116: Enable
+    100118: GroundTerminalDIN35#1
+    100120: GroundTerminalDIN35#1 1
+    100122: Group 10
+    100124: Group 100
+    100126: Group 102
+    100128: Group 104
+    100130: Group 106
+    100132: Group 118
+    100134: Group 12
+    100136: Group 122
+    100138: Group 124
+    100140: Group 126
+    100142: Group 128
+    100144: Group 14
+    100146: Group 18
+    100148: Group 186
+    100150: Group 188
+    100152: Group 190
+    100154: Group 192
+    100156: Group 2
+    100158: Group 20
+    100160: Group 217
+    100162: Group 24
+    100164: Group 244
+    100166: Group 249
+    100168: Group 251
+    100170: Group 261
+    100172: Group 263
+    100174: Group 265
+    100176: Group 267
+    100178: Group 269
+    100180: Group 271
+    100182: Group 273
+    100184: Group 275
+    100186: Group 277
+    100188: Group 279
+    100190: Group 281
+    100192: Group 283
+    100194: Group 285
+    100196: Group 287
+    100198: Group 289
+    100200: Group 291
+    100202: Group 293
+    100204: Group 295
+    100206: Group 297
+    100208: Group 299
+    100210: Group 301
+    100212: Group 303
+    100214: Group 305
+    100216: Group 307
+    100218: Group 309
+    100220: Group 311
+    100222: Group 321
+    100224: Group 323
+    100226: Group 325
+    100228: Group 327
+    100230: Group 329
+    100232: Group 331
+    100234: Group 335
+    100236: Group 337
+    100238: Group 339
+    100240: Group 341
+    100242: Group 343
+    100244: Group 345
+    100246: Group 347
+    100248: Group 349
+    100250: Group 351
+    100252: Group 353
+    100254: Group 355
+    100256: Group 357
+    100258: Group 359
+    100260: Group 361
+    100262: Group 363
+    100264: Group 365
+    100266: Group 367
+    100268: Group 369
+    100270: Group 371
+    100272: Group 373
+    100274: Group 375
+    100276: Group 377
+    100278: Group 379
+    100280: Group 381
+    100282: Group 383
+    100284: Group 385
+    100286: Group 393
+    100288: Group 395
+    100290: Group 397
+    100292: Group 399
+    100294: Group 4
+    100296: Group 401
+    100298: Group 403
+    100300: Group 405
+    100302: Group 407
+    100304: Group 409
+    100306: Group 411
+    100308: Group 413
+    100310: Group 415
+    100312: Group 417
+    100314: Group 419
+    100316: Group 421
+    100318: Group 423
+    100320: Group 425
+    100322: Group 427
+    100324: Group 429
+    100326: Group 431
+    100328: Group 433
+    100330: Group 435
+    100332: Group 437
+    100334: Group 439
+    100336: Group 441
+    100338: Group 443
+    100340: Group 45
+    100342: Group 451
+    100344: Group 455
+    100346: Group 459
+    100348: Group 465
+    100350: Group 47
+    100352: Group 473
+    100354: Group 481
+    100356: Group 483
+    100358: Group 485
+    100360: Group 487
+    100362: Group 489
+    100364: Group 49
+    100366: Group 491
+    100368: Group 495
+    100370: Group 497
+    100372: Group 499
+    100374: Group 501
+    100376: Group 503
+    100378: Group 505
+    100380: Group 51
+    100382: Group 517
+    100384: Group 520
+    100386: Group 522
+    100388: Group 524
+    100390: Group 526
+    100392: Group 528
+    100394: Group 530
+    100396: Group 532
+    100398: Group 534
+    100400: Group 536
+    100402: Group 538
+    100404: Group 54
+    100406: Group 540
+    100408: Group 542
+    100410: Group 544
+    100412: Group 546
+    100414: Group 548
+    100416: Group 550
+    100418: Group 552
+    100420: Group 554
+    100422: Group 56
+    100424: Group 568
+    100426: Group 570
+    100428: Group 572
+    100430: Group 574
+    100432: Group 576
+    100434: Group 578
+    100436: Group 58
+    100438: Group 580
+    100440: Group 582
+    100442: Group 584
+    100444: Group 586
+    100446: Group 588
+    100448: Group 590
+    100450: Group 592
+    100452: Group 594
+    100454: Group 596
+    100456: Group 598
+    100458: Group 6
+    100460: Group 60
+    100462: Group 600
+    100464: Group 602
+    100466: Group 604
+    100468: Group 606
+    100470: Group 608
+    100472: Group 610
+    100474: Group 612
+    100476: Group 614
+    100478: Group 616
+    100480: Group 618
+    100482: Group 620
+    100484: Group 622
+    100486: Group 624
+    100488: Group 626
+    100490: Group 628
+    100492: Group 63
+    100494: Group 630
+    100496: Group 632
+    100498: Group 634
+    100500: Group 636
+    100502: Group 638
+    100504: Group 640
+    100506: Group 642
+    100508: Group 644
+    100510: Group 646
+    100512: Group 648
+    100514: Group 65
+    100516: Group 650
+    100518: Group 652
+    100520: Group 654
+    100522: Group 656
+    100524: Group 658
+    100526: Group 660
+    100528: Group 662
+    100530: Group 664
+    100532: Group 666
+    100534: Group 668
+    100536: Group 67
+    100538: Group 670
+    100540: Group 672
+    100542: Group 69
+    100544: Group 73
+    100546: Group 77
+    100548: Group 8
+    100550: Group 81
+    100552: Group 85
+    100554: Group 89
+    100556: Group 93
+    100558: Group 97
+    100560: Hammond Power So
+    100562: Heaters/Pump#2
+    100564: Heatsink25ASSR
+    100566: Heatsink40ASSR
+    100568: Heatsink40ASSR 1
+    100570: HLT#2
+    100572: HV
+    100574: L03S 050 D15
+    100576: L03S 050 D15 1
+    100578: L1#1
+    100580: L2
+    100582: LV
+    100584: Off   Low   High
+    100586: Off   Low   High 1
+    100588: Off   Low   High 2
+    100590: Off  Grant  On#1
+    100592: On     High
+    100594: On     High 1
+    100596: On     High 2
+    100598: On/Off#1
+    100600: Outlet20ALocking
+    100602: Outlet30ALocking
+    100604: Outlet30ALocking 1
+    100606: Power#1
+    100608: Power#2
+    100610: PowerSupply
+    100612: Pump
+    100614: Relay2P2T
+    100616: Relay2P2T 1
+    100618: Relay2P2T 2
+    100620: Relay2P2Toctal
+    100622: Relay2P2Toctal 1
+    100624: RelaySocketOctal
+    100626: RelaySocketOctal 1
+    100628: RIMS
+    100630: //RootNode
+    100632: RTDconPanel#1
+    100634: RTDconPlug#1
+    100636: SET#1
+    100638: SET#1 1
+    100640: SET#1 2
+    100642: SIEMENS
+    100644: SIEMENS 1
+    100646: SIEMENS 2
+    100648: SSR
+    100650: SSR 1
+    100652: SSR 2
+    100654: SYL-2352#1
+    100656: SYL-2352#1 1
+    100658: SYL-2352#1 2
+    100660: TAMURA
+    100662: TAMURA 1
+    100664: TamuraCurrentSensor
+    100666: TamuraCurrentSensor 1
+    100668: TerminalBlockDIN35#1
+    100670: TerminalBlockDIN35#1 1
+    100672: TerminalBlockDIN35#1 2
+    100674: TerminalBlockDIN35#1 3
+    100676: TerminalBlockDIN35#1 4
+    100678: TerminalBlockDIN35#1 5
+    100680: TerminalBlockDIN35#1 6
+    100682: TerminalBlockEndcap#1
+    100684: TerminalBlockEndstop#1
+    100686: TerminalBlockEndstop#1 1
+    100688: Transformer75VA
+    400000: 12
+    400002: 18
+    400004: 22mm3posSwitch#1
+    400006: 22mm3posSwitch#1 1
+    400008: 22mm3posSwitch#1 2
+    400010: 22mm3posSwitch#1 3
+    400012: 22mmE-switch#1
+    400014: 22mmPilotLightAmber#1
+    400016: 22mmPilotLightAmber#1 1
+    400018: 22mmPilotLightBlue#1
+    400020: 22mmPilotLightBlue#1 1
+    400022: 22mmPilotLightBlue#1 2
+    400024: 22mmPilotLightGreen
+    400026: 22mmPilotLightGreen 1
+    400028: 22mmPilotLightGreen 2
+    400030: 22mmPilotLightGreen 3
+    400032: 22mmPushButtonRed#1
+    400034: 22mmPushButtonWhite#1
+    400036: 24
+    400038: 30
+    400040: 42CF35AJ#1
+    400042: 42CF35AJ#1 1
+    400044: 42CF35AJ#1 2
+    400046: 6#1
+    400048: 75 VA 50/60 Hz 5
+    400050: A
+    400052: A/M
+    400054: A/M 1
+    400056: A/M 2
+    400058: Altech
+    400060: Altech 1
+    400062: Altech 2
+    400064: Altech 3
+    400066: AltechBreaker_B15_2P#1
+    400068: AltechBreaker_B5#1
+    400070: AltechBreaker_C2#1
+    400072: AltechBreaker_C3#1
+    400074: AuxiliaryContact
+    400076: B15#1
+    400078: B15#1 1
+    400080: B5
+    400082: BK
+    400084: C2#2
+    400086: C3
+    400088: CableGland1_2in
+    400090: CableGland3_4in
+    400092: CAT.NO. PH75PG
+    400094: ContactBlock
+    400096: ContactBlock 1
+    400098: ContactorSiemens3P
+    400100: ContactorSiemens3P 1
+    400102: ContactorSiemens3P 2
+    400104: Current#1
+    400106: DINrail35mm
+    400108: Disable
+    400110: DrawerPull320mm#1
+    400112: DrawerPull320mm#1 1
+    400114: DualAmMeter30APrototype
+    400116: Enable
+    400118: GroundTerminalDIN35#1
+    400120: GroundTerminalDIN35#1 1
+    400122: Group 10
+    400124: Group 100
+    400126: Group 102
+    400128: Group 104
+    400130: Group 106
+    400132: Group 118
+    400134: Group 12
+    400136: Group 122
+    400138: Group 124
+    400140: Group 126
+    400142: Group 128
+    400144: Group 14
+    400146: Group 18
+    400148: Group 186
+    400150: Group 188
+    400152: Group 190
+    400154: Group 192
+    400156: Group 2
+    400158: Group 20
+    400160: Group 217
+    400162: Group 24
+    400164: Group 244
+    400166: Group 249
+    400168: Group 251
+    400170: Group 261
+    400172: Group 263
+    400174: Group 265
+    400176: Group 267
+    400178: Group 269
+    400180: Group 271
+    400182: Group 273
+    400184: Group 275
+    400186: Group 277
+    400188: Group 279
+    400190: Group 281
+    400192: Group 283
+    400194: Group 285
+    400196: Group 287
+    400198: Group 289
+    400200: Group 291
+    400202: Group 293
+    400204: Group 295
+    400206: Group 297
+    400208: Group 299
+    400210: Group 301
+    400212: Group 303
+    400214: Group 305
+    400216: Group 307
+    400218: Group 309
+    400220: Group 311
+    400222: Group 321
+    400224: Group 323
+    400226: Group 325
+    400228: Group 327
+    400230: Group 329
+    400232: Group 331
+    400234: Group 335
+    400236: Group 337
+    400238: Group 339
+    400240: Group 341
+    400242: Group 343
+    400244: Group 345
+    400246: Group 347
+    400248: Group 349
+    400250: Group 351
+    400252: Group 353
+    400254: Group 355
+    400256: Group 357
+    400258: Group 359
+    400260: Group 361
+    400262: Group 363
+    400264: Group 365
+    400266: Group 367
+    400268: Group 369
+    400270: Group 371
+    400272: Group 373
+    400274: Group 375
+    400276: Group 377
+    400278: Group 379
+    400280: Group 381
+    400282: Group 383
+    400284: Group 385
+    400286: Group 393
+    400288: Group 395
+    400290: Group 397
+    400292: Group 399
+    400294: Group 4
+    400296: Group 401
+    400298: Group 403
+    400300: Group 405
+    400302: Group 407
+    400304: Group 409
+    400306: Group 411
+    400308: Group 413
+    400310: Group 415
+    400312: Group 417
+    400314: Group 419
+    400316: Group 421
+    400318: Group 423
+    400320: Group 425
+    400322: Group 427
+    400324: Group 429
+    400326: Group 431
+    400328: Group 433
+    400330: Group 435
+    400332: Group 437
+    400334: Group 439
+    400336: Group 441
+    400338: Group 443
+    400340: Group 45
+    400342: Group 451
+    400344: Group 455
+    400346: Group 459
+    400348: Group 465
+    400350: Group 47
+    400352: Group 473
+    400354: Group 481
+    400356: Group 483
+    400358: Group 485
+    400360: Group 487
+    400362: Group 489
+    400364: Group 49
+    400366: Group 491
+    400368: Group 495
+    400370: Group 497
+    400372: Group 499
+    400374: Group 501
+    400376: Group 503
+    400378: Group 505
+    400380: Group 51
+    400382: Group 517
+    400384: Group 520
+    400386: Group 522
+    400388: Group 524
+    400390: Group 526
+    400392: Group 528
+    400394: Group 530
+    400396: Group 532
+    400398: Group 534
+    400400: Group 536
+    400402: Group 538
+    400404: Group 54
+    400406: Group 540
+    400408: Group 542
+    400410: Group 544
+    400412: Group 546
+    400414: Group 548
+    400416: Group 550
+    400418: Group 552
+    400420: Group 554
+    400422: Group 56
+    400424: Group 568
+    400426: Group 570
+    400428: Group 572
+    400430: Group 574
+    400432: Group 576
+    400434: Group 578
+    400436: Group 58
+    400438: Group 580
+    400440: Group 582
+    400442: Group 584
+    400444: Group 586
+    400446: Group 588
+    400448: Group 590
+    400450: Group 592
+    400452: Group 594
+    400454: Group 596
+    400456: Group 598
+    400458: Group 6
+    400460: Group 60
+    400462: Group 600
+    400464: Group 602
+    400466: Group 604
+    400468: Group 606
+    400470: Group 608
+    400472: Group 610
+    400474: Group 612
+    400476: Group 614
+    400478: Group 616
+    400480: Group 618
+    400482: Group 620
+    400484: Group 622
+    400486: Group 624
+    400488: Group 626
+    400490: Group 628
+    400492: Group 63
+    400494: Group 630
+    400496: Group 632
+    400498: Group 634
+    400500: Group 636
+    400502: Group 638
+    400504: Group 640
+    400506: Group 642
+    400508: Group 644
+    400510: Group 646
+    400512: Group 648
+    400514: Group 65
+    400516: Group 650
+    400518: Group 652
+    400520: Group 654
+    400522: Group 656
+    400524: Group 658
+    400526: Group 660
+    400528: Group 662
+    400530: Group 664
+    400532: Group 666
+    400534: Group 668
+    400536: Group 67
+    400538: Group 670
+    400540: Group 672
+    400542: Group 69
+    400544: Group 73
+    400546: Group 77
+    400548: Group 8
+    400550: Group 81
+    400552: Group 85
+    400554: Group 89
+    400556: Group 93
+    400558: Group 97
+    400560: Hammond Power So
+    400562: Heaters/Pump#2
+    400564: Heatsink25ASSR
+    400566: Heatsink40ASSR
+    400568: Heatsink40ASSR 1
+    400570: HLT#2
+    400572: HV
+    400574: L03S 050 D15
+    400576: L03S 050 D15 1
+    400578: L1#1
+    400580: L2
+    400582: LV
+    400584: Off   Low   High
+    400586: Off   Low   High 1
+    400588: Off   Low   High 2
+    400590: Off  Grant  On#1
+    400592: On     High
+    400594: On     High 1
+    400596: On     High 2
+    400598: On/Off#1
+    400600: Outlet20ALocking
+    400602: Outlet30ALocking
+    400604: Outlet30ALocking 1
+    400606: Power#1
+    400608: Power#2
+    400610: PowerSupply
+    400612: Pump
+    400614: Relay2P2T
+    400616: Relay2P2T 1
+    400618: Relay2P2T 2
+    400620: Relay2P2Toctal
+    400622: Relay2P2Toctal 1
+    400624: RelaySocketOctal
+    400626: RelaySocketOctal 1
+    400628: RIMS
+    400630: //RootNode
+    400632: RTDconPanel#1
+    400634: RTDconPlug#1
+    400636: SET#1
+    400638: SET#1 1
+    400640: SET#1 2
+    400642: SIEMENS
+    400644: SIEMENS 1
+    400646: SIEMENS 2
+    400648: SSR
+    400650: SSR 1
+    400652: SSR 2
+    400654: SYL-2352#1
+    400656: SYL-2352#1 1
+    400658: SYL-2352#1 2
+    400660: TAMURA
+    400662: TAMURA 1
+    400664: TamuraCurrentSensor
+    400666: TamuraCurrentSensor 1
+    400668: TerminalBlockDIN35#1
+    400670: TerminalBlockDIN35#1 1
+    400672: TerminalBlockDIN35#1 2
+    400674: TerminalBlockDIN35#1 3
+    400676: TerminalBlockDIN35#1 4
+    400678: TerminalBlockDIN35#1 5
+    400680: TerminalBlockDIN35#1 6
+    400682: TerminalBlockEndcap#1
+    400684: TerminalBlockEndstop#1
+    400686: TerminalBlockEndstop#1 1
+    400688: Transformer75VA
+    2300000: 12
+    2300002: 18
+    2300004: 22mmE-switch#1
+    2300006: 22mmPilotLightAmber#1
+    2300008: 22mmPilotLightAmber#1 1
+    2300010: 22mmPilotLightBlue#1
+    2300012: 22mmPilotLightBlue#1 1
+    2300014: 22mmPilotLightBlue#1 2
+    2300016: 22mmPilotLightGreen
+    2300018: 22mmPilotLightGreen 1
+    2300020: 22mmPilotLightGreen 2
+    2300022: 22mmPilotLightGreen 3
+    2300024: 22mmPushButtonRed#1
+    2300026: 22mmPushButtonWhite#1
+    2300028: 24
+    2300030: 30
+    2300032: 42CF35AJ#1
+    2300034: 42CF35AJ#1 1
+    2300036: 42CF35AJ#1 2
+    2300038: 6#1
+    2300040: 75 VA 50/60 Hz 5
+    2300042: A
+    2300044: A/M
+    2300046: A/M 1
+    2300048: A/M 2
+    2300050: Altech
+    2300052: Altech 1
+    2300054: Altech 2
+    2300056: Altech 3
+    2300058: AltechBreaker_B15_2P#1
+    2300060: AltechBreaker_B5#1
+    2300062: AltechBreaker_C2#1
+    2300064: AltechBreaker_C3#1
+    2300066: AuxiliaryContact
+    2300068: B15#1
+    2300070: B15#1 1
+    2300072: B5
+    2300074: BK
+    2300076: C2#2
+    2300078: C3
+    2300080: CableGland1_2in
+    2300082: CableGland3_4in
+    2300084: CAT.NO. PH75PG
+    2300086: ContactBlock
+    2300088: ContactBlock 1
+    2300090: ContactorSiemens3P
+    2300092: ContactorSiemens3P 1
+    2300094: ContactorSiemens3P 2
+    2300096: Current#1
+    2300098: DINrail35mm
+    2300100: Disable
+    2300102: DrawerPull320mm#1
+    2300104: DrawerPull320mm#1 1
+    2300106: DualAmMeter30APrototype
+    2300108: Enable
+    2300110: GroundTerminalDIN35#1
+    2300112: GroundTerminalDIN35#1 1
+    2300114: Group 10
+    2300116: Group 100
+    2300118: Group 102
+    2300120: Group 104
+    2300122: Group 106
+    2300124: Group 118
+    2300126: Group 12
+    2300128: Group 122
+    2300130: Group 124
+    2300132: Group 126
+    2300134: Group 128
+    2300136: Group 14
+    2300138: Group 18
+    2300140: Group 186
+    2300142: Group 188
+    2300144: Group 190
+    2300146: Group 2
+    2300148: Group 20
+    2300150: Group 24
+    2300152: Group 249
+    2300154: Group 251
+    2300156: Group 261
+    2300158: Group 263
+    2300160: Group 265
+    2300162: Group 267
+    2300164: Group 269
+    2300166: Group 271
+    2300168: Group 273
+    2300170: Group 275
+    2300172: Group 277
+    2300174: Group 279
+    2300176: Group 281
+    2300178: Group 283
+    2300180: Group 285
+    2300182: Group 287
+    2300184: Group 289
+    2300186: Group 291
+    2300188: Group 293
+    2300190: Group 295
+    2300192: Group 297
+    2300194: Group 299
+    2300196: Group 301
+    2300198: Group 303
+    2300200: Group 305
+    2300202: Group 307
+    2300204: Group 309
+    2300206: Group 311
+    2300208: Group 321
+    2300210: Group 323
+    2300212: Group 325
+    2300214: Group 327
+    2300216: Group 329
+    2300218: Group 331
+    2300220: Group 335
+    2300222: Group 337
+    2300224: Group 339
+    2300226: Group 341
+    2300228: Group 343
+    2300230: Group 345
+    2300232: Group 347
+    2300234: Group 349
+    2300236: Group 351
+    2300238: Group 353
+    2300240: Group 355
+    2300242: Group 357
+    2300244: Group 359
+    2300246: Group 361
+    2300248: Group 363
+    2300250: Group 365
+    2300252: Group 367
+    2300254: Group 369
+    2300256: Group 371
+    2300258: Group 373
+    2300260: Group 375
+    2300262: Group 377
+    2300264: Group 379
+    2300266: Group 381
+    2300268: Group 383
+    2300270: Group 385
+    2300272: Group 393
+    2300274: Group 395
+    2300276: Group 397
+    2300278: Group 399
+    2300280: Group 4
+    2300282: Group 401
+    2300284: Group 403
+    2300286: Group 405
+    2300288: Group 407
+    2300290: Group 409
+    2300292: Group 411
+    2300294: Group 413
+    2300296: Group 415
+    2300298: Group 417
+    2300300: Group 419
+    2300302: Group 421
+    2300304: Group 423
+    2300306: Group 425
+    2300308: Group 427
+    2300310: Group 429
+    2300312: Group 431
+    2300314: Group 433
+    2300316: Group 435
+    2300318: Group 437
+    2300320: Group 439
+    2300322: Group 441
+    2300324: Group 443
+    2300326: Group 45
+    2300328: Group 451
+    2300330: Group 455
+    2300332: Group 459
+    2300334: Group 465
+    2300336: Group 47
+    2300338: Group 473
+    2300340: Group 481
+    2300342: Group 483
+    2300344: Group 485
+    2300346: Group 487
+    2300348: Group 489
+    2300350: Group 49
+    2300352: Group 491
+    2300354: Group 495
+    2300356: Group 497
+    2300358: Group 499
+    2300360: Group 501
+    2300362: Group 503
+    2300364: Group 505
+    2300366: Group 51
+    2300368: Group 517
+    2300370: Group 520
+    2300372: Group 522
+    2300374: Group 524
+    2300376: Group 526
+    2300378: Group 528
+    2300380: Group 530
+    2300382: Group 532
+    2300384: Group 534
+    2300386: Group 536
+    2300388: Group 538
+    2300390: Group 54
+    2300392: Group 540
+    2300394: Group 542
+    2300396: Group 544
+    2300398: Group 546
+    2300400: Group 548
+    2300402: Group 550
+    2300404: Group 552
+    2300406: Group 554
+    2300408: Group 56
+    2300410: Group 568
+    2300412: Group 570
+    2300414: Group 572
+    2300416: Group 574
+    2300418: Group 576
+    2300420: Group 578
+    2300422: Group 58
+    2300424: Group 580
+    2300426: Group 582
+    2300428: Group 584
+    2300430: Group 586
+    2300432: Group 588
+    2300434: Group 590
+    2300436: Group 592
+    2300438: Group 594
+    2300440: Group 596
+    2300442: Group 598
+    2300444: Group 6
+    2300446: Group 60
+    2300448: Group 600
+    2300450: Group 602
+    2300452: Group 604
+    2300454: Group 606
+    2300456: Group 608
+    2300458: Group 610
+    2300460: Group 612
+    2300462: Group 614
+    2300464: Group 616
+    2300466: Group 618
+    2300468: Group 620
+    2300470: Group 622
+    2300472: Group 624
+    2300474: Group 626
+    2300476: Group 628
+    2300478: Group 63
+    2300480: Group 630
+    2300482: Group 632
+    2300484: Group 634
+    2300486: Group 636
+    2300488: Group 638
+    2300490: Group 640
+    2300492: Group 642
+    2300494: Group 644
+    2300496: Group 646
+    2300498: Group 648
+    2300500: Group 65
+    2300502: Group 650
+    2300504: Group 652
+    2300506: Group 654
+    2300508: Group 656
+    2300510: Group 658
+    2300512: Group 660
+    2300514: Group 662
+    2300516: Group 664
+    2300518: Group 666
+    2300520: Group 668
+    2300522: Group 67
+    2300524: Group 670
+    2300526: Group 672
+    2300528: Group 69
+    2300530: Group 73
+    2300532: Group 77
+    2300534: Group 8
+    2300536: Group 81
+    2300538: Group 85
+    2300540: Group 89
+    2300542: Group 93
+    2300544: Group 97
+    2300546: Hammond Power So
+    2300548: Heaters/Pump#2
+    2300550: Heatsink25ASSR
+    2300552: Heatsink40ASSR
+    2300554: Heatsink40ASSR 1
+    2300556: HLT#2
+    2300558: HV
+    2300560: L03S 050 D15
+    2300562: L03S 050 D15 1
+    2300564: L1#1
+    2300566: L2
+    2300568: LV
+    2300570: Off   Low   High
+    2300572: Off   Low   High 1
+    2300574: Off   Low   High 2
+    2300576: Off  Grant  On#1
+    2300578: On     High
+    2300580: On     High 1
+    2300582: On     High 2
+    2300584: On/Off#1
+    2300586: Outlet20ALocking
+    2300588: Outlet30ALocking
+    2300590: Outlet30ALocking 1
+    2300592: Power#1
+    2300594: Power#2
+    2300596: PowerSupply
+    2300598: Pump
+    2300600: Relay2P2T
+    2300602: Relay2P2T 1
+    2300604: Relay2P2T 2
+    2300606: Relay2P2Toctal
+    2300608: Relay2P2Toctal 1
+    2300610: RelaySocketOctal
+    2300612: RelaySocketOctal 1
+    2300614: RIMS
+    2300616: //RootNode
+    2300618: RTDconPanel#1
+    2300620: RTDconPlug#1
+    2300622: SET#1
+    2300624: SET#1 1
+    2300626: SET#1 2
+    2300628: SIEMENS
+    2300630: SIEMENS 1
+    2300632: SIEMENS 2
+    2300634: SSR
+    2300636: SSR 1
+    2300638: SSR 2
+    2300640: SYL-2352#1
+    2300642: SYL-2352#1 1
+    2300644: SYL-2352#1 2
+    2300646: TAMURA
+    2300648: TAMURA 1
+    2300650: TamuraCurrentSensor
+    2300652: TamuraCurrentSensor 1
+    2300654: TerminalBlockDIN35#1
+    2300656: TerminalBlockDIN35#1 1
+    2300658: TerminalBlockDIN35#1 2
+    2300660: TerminalBlockDIN35#1 3
+    2300662: TerminalBlockDIN35#1 4
+    2300664: TerminalBlockDIN35#1 5
+    2300666: TerminalBlockDIN35#1 6
+    2300668: TerminalBlockEndcap#1
+    2300670: TerminalBlockEndstop#1
+    2300672: TerminalBlockEndstop#1 1
+    3300000: 12
+    3300002: 18
+    3300004: 22mmE-switch#1
+    3300006: 22mmPilotLightAmber#1
+    3300008: 22mmPilotLightAmber#1 1
+    3300010: 22mmPilotLightBlue#1
+    3300012: 22mmPilotLightBlue#1 1
+    3300014: 22mmPilotLightBlue#1 2
+    3300016: 22mmPilotLightGreen
+    3300018: 22mmPilotLightGreen 1
+    3300020: 22mmPilotLightGreen 2
+    3300022: 22mmPilotLightGreen 3
+    3300024: 22mmPushButtonRed#1
+    3300026: 22mmPushButtonWhite#1
+    3300028: 24
+    3300030: 30
+    3300032: 42CF35AJ#1
+    3300034: 42CF35AJ#1 1
+    3300036: 42CF35AJ#1 2
+    3300038: 6#1
+    3300040: 75 VA 50/60 Hz 5
+    3300042: A
+    3300044: A/M
+    3300046: A/M 1
+    3300048: A/M 2
+    3300050: Altech
+    3300052: Altech 1
+    3300054: Altech 2
+    3300056: Altech 3
+    3300058: AltechBreaker_B15_2P#1
+    3300060: AltechBreaker_B5#1
+    3300062: AltechBreaker_C2#1
+    3300064: AltechBreaker_C3#1
+    3300066: AuxiliaryContact
+    3300068: B15#1
+    3300070: B15#1 1
+    3300072: B5
+    3300074: BK
+    3300076: C2#2
+    3300078: C3
+    3300080: CableGland1_2in
+    3300082: CableGland3_4in
+    3300084: CAT.NO. PH75PG
+    3300086: ContactBlock
+    3300088: ContactBlock 1
+    3300090: ContactorSiemens3P
+    3300092: ContactorSiemens3P 1
+    3300094: ContactorSiemens3P 2
+    3300096: Current#1
+    3300098: DINrail35mm
+    3300100: Disable
+    3300102: DrawerPull320mm#1
+    3300104: DrawerPull320mm#1 1
+    3300106: DualAmMeter30APrototype
+    3300108: Enable
+    3300110: GroundTerminalDIN35#1
+    3300112: GroundTerminalDIN35#1 1
+    3300114: Group 10
+    3300116: Group 100
+    3300118: Group 102
+    3300120: Group 104
+    3300122: Group 106
+    3300124: Group 118
+    3300126: Group 12
+    3300128: Group 122
+    3300130: Group 124
+    3300132: Group 126
+    3300134: Group 128
+    3300136: Group 14
+    3300138: Group 18
+    3300140: Group 186
+    3300142: Group 188
+    3300144: Group 190
+    3300146: Group 2
+    3300148: Group 20
+    3300150: Group 24
+    3300152: Group 249
+    3300154: Group 251
+    3300156: Group 261
+    3300158: Group 263
+    3300160: Group 265
+    3300162: Group 267
+    3300164: Group 269
+    3300166: Group 271
+    3300168: Group 273
+    3300170: Group 275
+    3300172: Group 277
+    3300174: Group 279
+    3300176: Group 281
+    3300178: Group 283
+    3300180: Group 285
+    3300182: Group 287
+    3300184: Group 289
+    3300186: Group 291
+    3300188: Group 293
+    3300190: Group 295
+    3300192: Group 297
+    3300194: Group 299
+    3300196: Group 301
+    3300198: Group 303
+    3300200: Group 305
+    3300202: Group 307
+    3300204: Group 309
+    3300206: Group 311
+    3300208: Group 321
+    3300210: Group 323
+    3300212: Group 325
+    3300214: Group 327
+    3300216: Group 329
+    3300218: Group 331
+    3300220: Group 335
+    3300222: Group 337
+    3300224: Group 339
+    3300226: Group 341
+    3300228: Group 343
+    3300230: Group 345
+    3300232: Group 347
+    3300234: Group 349
+    3300236: Group 351
+    3300238: Group 353
+    3300240: Group 355
+    3300242: Group 357
+    3300244: Group 359
+    3300246: Group 361
+    3300248: Group 363
+    3300250: Group 365
+    3300252: Group 367
+    3300254: Group 369
+    3300256: Group 371
+    3300258: Group 373
+    3300260: Group 375
+    3300262: Group 377
+    3300264: Group 379
+    3300266: Group 381
+    3300268: Group 383
+    3300270: Group 385
+    3300272: Group 393
+    3300274: Group 395
+    3300276: Group 397
+    3300278: Group 399
+    3300280: Group 4
+    3300282: Group 401
+    3300284: Group 403
+    3300286: Group 405
+    3300288: Group 407
+    3300290: Group 409
+    3300292: Group 411
+    3300294: Group 413
+    3300296: Group 415
+    3300298: Group 417
+    3300300: Group 419
+    3300302: Group 421
+    3300304: Group 423
+    3300306: Group 425
+    3300308: Group 427
+    3300310: Group 429
+    3300312: Group 431
+    3300314: Group 433
+    3300316: Group 435
+    3300318: Group 437
+    3300320: Group 439
+    3300322: Group 441
+    3300324: Group 443
+    3300326: Group 45
+    3300328: Group 451
+    3300330: Group 455
+    3300332: Group 459
+    3300334: Group 465
+    3300336: Group 47
+    3300338: Group 473
+    3300340: Group 481
+    3300342: Group 483
+    3300344: Group 485
+    3300346: Group 487
+    3300348: Group 489
+    3300350: Group 49
+    3300352: Group 491
+    3300354: Group 495
+    3300356: Group 497
+    3300358: Group 499
+    3300360: Group 501
+    3300362: Group 503
+    3300364: Group 505
+    3300366: Group 51
+    3300368: Group 517
+    3300370: Group 520
+    3300372: Group 522
+    3300374: Group 524
+    3300376: Group 526
+    3300378: Group 528
+    3300380: Group 530
+    3300382: Group 532
+    3300384: Group 534
+    3300386: Group 536
+    3300388: Group 538
+    3300390: Group 54
+    3300392: Group 540
+    3300394: Group 542
+    3300396: Group 544
+    3300398: Group 546
+    3300400: Group 548
+    3300402: Group 550
+    3300404: Group 552
+    3300406: Group 554
+    3300408: Group 56
+    3300410: Group 568
+    3300412: Group 570
+    3300414: Group 572
+    3300416: Group 574
+    3300418: Group 576
+    3300420: Group 578
+    3300422: Group 58
+    3300424: Group 580
+    3300426: Group 582
+    3300428: Group 584
+    3300430: Group 586
+    3300432: Group 588
+    3300434: Group 590
+    3300436: Group 592
+    3300438: Group 594
+    3300440: Group 596
+    3300442: Group 598
+    3300444: Group 6
+    3300446: Group 60
+    3300448: Group 600
+    3300450: Group 602
+    3300452: Group 604
+    3300454: Group 606
+    3300456: Group 608
+    3300458: Group 610
+    3300460: Group 612
+    3300462: Group 614
+    3300464: Group 616
+    3300466: Group 618
+    3300468: Group 620
+    3300470: Group 622
+    3300472: Group 624
+    3300474: Group 626
+    3300476: Group 628
+    3300478: Group 63
+    3300480: Group 630
+    3300482: Group 632
+    3300484: Group 634
+    3300486: Group 636
+    3300488: Group 638
+    3300490: Group 640
+    3300492: Group 642
+    3300494: Group 644
+    3300496: Group 646
+    3300498: Group 648
+    3300500: Group 65
+    3300502: Group 650
+    3300504: Group 652
+    3300506: Group 654
+    3300508: Group 656
+    3300510: Group 658
+    3300512: Group 660
+    3300514: Group 662
+    3300516: Group 664
+    3300518: Group 666
+    3300520: Group 668
+    3300522: Group 67
+    3300524: Group 670
+    3300526: Group 672
+    3300528: Group 69
+    3300530: Group 73
+    3300532: Group 77
+    3300534: Group 8
+    3300536: Group 81
+    3300538: Group 85
+    3300540: Group 89
+    3300542: Group 93
+    3300544: Group 97
+    3300546: Hammond Power So
+    3300548: Heaters/Pump#2
+    3300550: Heatsink25ASSR
+    3300552: Heatsink40ASSR
+    3300554: Heatsink40ASSR 1
+    3300556: HLT#2
+    3300558: HV
+    3300560: L03S 050 D15
+    3300562: L03S 050 D15 1
+    3300564: L1#1
+    3300566: L2
+    3300568: LV
+    3300570: Off   Low   High
+    3300572: Off   Low   High 1
+    3300574: Off   Low   High 2
+    3300576: Off  Grant  On#1
+    3300578: On     High
+    3300580: On     High 1
+    3300582: On     High 2
+    3300584: On/Off#1
+    3300586: Outlet20ALocking
+    3300588: Outlet30ALocking
+    3300590: Outlet30ALocking 1
+    3300592: Power#1
+    3300594: Power#2
+    3300596: PowerSupply
+    3300598: Pump
+    3300600: Relay2P2T
+    3300602: Relay2P2T 1
+    3300604: Relay2P2T 2
+    3300606: Relay2P2Toctal
+    3300608: Relay2P2Toctal 1
+    3300610: RelaySocketOctal
+    3300612: RelaySocketOctal 1
+    3300614: RIMS
+    3300616: //RootNode
+    3300618: RTDconPanel#1
+    3300620: RTDconPlug#1
+    3300622: SET#1
+    3300624: SET#1 1
+    3300626: SET#1 2
+    3300628: SIEMENS
+    3300630: SIEMENS 1
+    3300632: SIEMENS 2
+    3300634: SSR
+    3300636: SSR 1
+    3300638: SSR 2
+    3300640: SYL-2352#1
+    3300642: SYL-2352#1 1
+    3300644: SYL-2352#1 2
+    3300646: TAMURA
+    3300648: TAMURA 1
+    3300650: TamuraCurrentSensor
+    3300652: TamuraCurrentSensor 1
+    3300654: TerminalBlockDIN35#1
+    3300656: TerminalBlockDIN35#1 1
+    3300658: TerminalBlockDIN35#1 2
+    3300660: TerminalBlockDIN35#1 3
+    3300662: TerminalBlockDIN35#1 4
+    3300664: TerminalBlockDIN35#1 5
+    3300666: TerminalBlockDIN35#1 6
+    3300668: TerminalBlockEndcap#1
+    3300670: TerminalBlockEndstop#1
+    3300672: TerminalBlockEndstop#1 1
+    4300000: Mesh RittalControlPanel
+    4300002: Mesh Group 2
+    4300004: Mesh Group 4
+    4300006: Mesh Group 6
+    4300008: Mesh Group 8
+    4300010: Mesh Group 12
+    4300012: Mesh Group 14
+    4300014: Mesh 22mmE-switch#1
+    4300016: Mesh Group 18
+    4300018: Mesh Group 20
+    4300020: Mesh 22mmPilotLightAmber#1
+    4300022: Mesh Group 24
+    4300024: Mesh SYL-2352#1
+    4300026: Mesh SET#1
+    4300028: Mesh A/M
+    4300030: Mesh Group 45
+    4300032: Mesh Group 47
+    4300034: Mesh Group 49
+    4300036: Mesh Group 51
+    4300038: Mesh 22mmPilotLightGreen
+    4300040: Mesh 22mmPilotLightBlue#1
+    4300042: Mesh Group 100
+    4300044: Mesh Group 102
+    4300046: Mesh 22mmPushButtonRed#1
+    4300048: Mesh ContactBlock
+    4300050: Mesh 22mmPushButtonWhite#1
+    4300052: Mesh ContactBlock
+    4300054: Mesh DualAmMeter30APrototype
+    4300056: Mesh Group 122
+    4300058: Mesh Group 124
+    4300060: Mesh Group 126
+    4300062: Mesh Group 128
+    4300064: Mesh 30
+    4300066: Mesh L1#1
+    4300068: Mesh A
+    4300070: Mesh L2
+    4300072: Mesh 24
+    4300074: Mesh 18
+    4300076: Mesh 12
+    4300078: Mesh 6#1
+    4300080: Mesh HLT#2
+    4300082: Mesh RIMS
+    4300084: Mesh BK
+    4300086: Mesh On     High
+    4300088: Mesh Off   Low   High
+    4300090: Mesh Power#1
+    4300092: Mesh On/Off#1
+    4300094: Mesh Heaters/Pump#2
+    4300096: Mesh Pump
+    4300098: Mesh Off  Grant  On#1
+    4300100: Mesh Enable
+    4300102: Mesh Disable
+    4300104: Mesh Power#2
+    4300106: Mesh Current#1
+    4300108: Mesh DrawerPull320mm#1
+    4300110: Mesh Group 186
+    4300112: Mesh Group 188
+    4300114: Mesh GroundTerminalDIN35#1
+    4300116: Mesh TerminalBlockDIN35#1
+    4300118: Mesh TerminalBlockEndstop#1
+    4300120: Mesh TerminalBlockEndcap#1
+    4300122: Mesh AltechBreaker_C2#1
+    4300124: Mesh C2#2
+    4300126: Mesh Altech
+    4300128: Mesh AltechBreaker_C3#1
+    4300130: Mesh C3
+    4300132: Mesh AltechBreaker_B15_2P#1
+    4300134: Mesh B15#1
+    4300136: Mesh AltechBreaker_B5#1
+    4300138: Mesh B5
+    4300140: Mesh RTDconPlug#1
+    4300142: Mesh RTDconPanel#1
+    4300144: Mesh Group 249
+    4300146: Mesh Group 251
+    4300148: Mesh Heatsink40ASSR
+    4300150: Mesh Heatsink25ASSR
+    4300152: Mesh ContactorSiemens3P
+    4300154: Mesh Group 261
+    4300156: Mesh Group 265
+    4300158: Mesh Group 267
+    4300160: Mesh Group 269
+    4300162: Mesh Group 271
+    4300164: Mesh Group 275
+    4300166: Mesh Group 279
+    4300168: Mesh Group 287
+    4300170: Mesh SIEMENS
+    4300172: Mesh 42CF35AJ#1
+    4300174: Mesh AuxiliaryContact
+    4300176: Mesh Relay2P2T
+    4300178: Mesh Group 321
+    4300180: Mesh Group 323
+    4300182: Mesh SSR
+    4300184: Mesh Group 451
+    4300186: Mesh DINrail35mm
+    4300188: Mesh TamuraCurrentSensor
+    4300190: Mesh Group 465
+    4300192: Mesh TAMURA
+    4300194: Mesh L03S 050 D15
+    4300196: Mesh TamuraCurrentSensor
+    4300198: Mesh Outlet20ALocking
+    4300200: Mesh Outlet30ALocking
+    4300202: Mesh CableGland3_4in
+    4300204: Mesh CableGland1_2in
+    4300206: Mesh Group 517
+    4300208: Mesh Group 520
+    4300210: Mesh Group 522
+    4300212: Mesh Group 524
+    4300214: Mesh CAT.NO. PH75PG
+    4300216: Mesh 75 VA 50/60 Hz 5
+    4300218: Mesh Hammond Power So
+    4300220: Mesh HV
+    4300222: Mesh LV
+    4300224: Mesh PowerSupply
+    4300226: Mesh Group 568
+    4300228: Mesh Group 570
+    4300230: Mesh Group 572
+    4300232: Mesh Group 574
+    4300234: Mesh Group 576
+    4300236: Mesh Group 578
+    4300238: Mesh Group 580
+    4300240: Mesh Group 582
+    4300242: Mesh Group 584
+    4300244: Mesh Group 590
+    4300246: Mesh Group 592
+    4300248: Mesh Group 594
+    4300250: Mesh Group 596
+    4300252: Mesh Group 598
+    4300254: Mesh Group 600
+    4300256: Mesh Group 602
+    4300258: Mesh Group 604
+    4300260: Mesh Group 606
+    4300262: Mesh Group 610
+    4300264: Mesh Group 616
+    4300266: Mesh Group 622
+    4300268: Mesh Group 632
+    4300270: Mesh Group 642
+    4300272: Mesh Group 650
+    4300274: Mesh Group 658
+    4300276: Mesh Relay2P2Toctal
+    4300278: Mesh RelaySocketOctal
+  materials:
+    importMaterials: 1
+    materialName: 2
+    materialSearch: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.0254
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
