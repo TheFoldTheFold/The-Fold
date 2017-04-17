@@ -29,7 +29,7 @@ public class SetSunLight : MonoBehaviour {
 	void Update () 
 	{
 
-		stars.transform.rotation = transform.rotation;
+//		stars.transform.rotation = transform.rotation;
 
 		//if (Input.GetKeyDown(KeyCode.T))
 		//{
