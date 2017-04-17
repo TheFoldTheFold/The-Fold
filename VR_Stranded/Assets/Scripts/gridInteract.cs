@@ -29,22 +29,10 @@ public class gridInteract : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        if (Input.GetButtonDown("Back"))
-        {
-            Debug.Log("Exit Interaction");
-            fps.move = true;
-            isActive = false;
-        }
-        else if (inRange && Input.GetButton("Interact"))
-        {
-            isActive = true;
-            fps.move = false;
-        }
-        if (isActive)
+        if (inRange)
         {
             if (Input.GetButtonUp("Jump"))
             {
-                Debug.Log("jumped!");
                 bool tog = transform.GetChild(v * 3 + h).gameObject.activeSelf;
                 transform.GetChild(v * 3 + h).gameObject.SetActive(!tog);
             }

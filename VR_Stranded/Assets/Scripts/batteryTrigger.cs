@@ -2,54 +2,62 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class batteryTrigger : MonoBehaviour {
+public class batteryTrigger : MonoBehaviour
+{
 
-	public GameObject cam;
-	public AudioClip audioC;
-	private AudioSource audio;
-	private bool hasPlayed = false;
-	public static bool loadEnd = false;
-	private bool triggerEffect = false;
-	float lengt;
+    public GameObject cam;
+    public AudioClip audioC;
+    private AudioSource audio;
+    private bool hasPlayed = false;
+    public static bool loadEnd = false;
+    private bool triggerEffect = false;
+    float lengt;
 
 
-	void Start () {
-		audio = GetComponent<AudioSource>();
-		hasPlayed = false;
-		lengt = audioC.length;	
-		triggerEffect = false;	
-	}
+    void Start()
+    {
+        audio = GetComponent<AudioSource>();
+        hasPlayed = false;
+        lengt = audioC.length;
+        triggerEffect = false;
+    }
 
-	void Update (){
+    void Update()
+    {
 
-		if(triggerEffect == true){
+        if (triggerEffect == true)
+        {
 
-			lengt -= Time.deltaTime;
+            lengt -= Time.deltaTime;
 
-			if(lengt > 0f){
+            if (lengt > 0f)
+            {
 
-				cam.GetComponent<fadeoutend>().enabled = true;
-			}
+                cam.GetComponent<fadeoutend>().enabled = true;
+            }
 
-			else if(lengt<0f){
-				cam.GetComponent<fadeoutend>().enabled = false;
-				triggerEffect = false;
+            else if (lengt < 0f)
+            {
+                cam.GetComponent<fadeoutend>().enabled = false;
+                triggerEffect = false;
 
-			}
+            }
 
-		}
+        }
 
-	}
+    }
 
-	void OnTriggerEnter(Collider other)
-	{
-		if(other.tag == "Player" && FPSController.itemCount == 3){
-			if (!hasPlayed) {
-				audio.Play ();
-				hasPlayed = true;
-				triggerEffect = true;
-				loadEnd = true;
-			}
-		}
-	}
+    void OnTriggerEnter(Collider other)
+    {
+        if (other.tag == "Player" && FPSController.itemCount == 3)
+        {
+            if (!hasPlayed)
+            {
+                audio.Play();
+                hasPlayed = true;
+                triggerEffect = true;
+                loadEnd = true;
+            }
+        }
+    }
 }
