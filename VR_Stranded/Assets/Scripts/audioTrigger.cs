@@ -1,4 +1,5 @@
 ﻿using System.Collections;
+using UnityEngine.UI;
 using System.Collections.Generic;
 using UnityStandardAssets.ImageEffects;
 using UnityEngine;
@@ -12,8 +13,10 @@ public class audioTrigger : MonoBehaviour {
 	private bool hasPlayed = false;
 	private bool triggerEffect = false;
 	float lengt;
+	Image img;
 
 	void Start () {
+		img = GameObject.Find("Radio UI").GetComponent<Image>();
 		audio = GetComponent<AudioSource>();
 		hasPlayed = false;
 		lengt = audioC.length;	
@@ -29,10 +32,12 @@ public class audioTrigger : MonoBehaviour {
 
 			if(lengt > 0f){
 
+				img.enabled = true;
 				cam.GetComponent<NoiseAndScratches>().enabled = true;
 			}
 
 			else if(lengt<0f){
+				img.enabled = false;
 				cam.GetComponent<NoiseAndScratches>().enabled = false;
 				triggerEffect = false;
 

@@ -1,4 +1,5 @@
 ﻿using System.Collections;
+using UnityEngine.UI;
 using System.Collections.Generic;
 using UnityStandardAssets.ImageEffects;
 using UnityEngine;
@@ -10,14 +11,15 @@ public class RadioBuzz : MonoBehaviour {
     AudioSource audio;
     bool check;
     float wait;
+	Image img;
 
 	// Use this for initialization
 	void Start () {
-
-		 audio = this.GetComponent<AudioSource>();
-		 cam.GetComponent<NoiseAndScratches>().enabled = false;
-		 wait = otherClip.length;
-		 check = true;
+		img = GameObject.Find("Radio UI").GetComponent<Image>();
+		audio = this.GetComponent<AudioSource>();
+		cam.GetComponent<NoiseAndScratches>().enabled = false;
+		wait = otherClip.length;
+		check = true;
 
 
 	}
@@ -26,13 +28,13 @@ public class RadioBuzz : MonoBehaviour {
 	void Update () {
 
 		        if (check){
-
+					img.enabled = true;
 		        	wait-=Time.deltaTime;
 		        	cam.GetComponent<NoiseAndScratches>().enabled = true;	
 
 		        }
 		        if(wait<0f){
-
+					img.enabled = false;
 		        	cam.GetComponent<NoiseAndScratches>().enabled = false;
 		        	check = false;	
 		        }
